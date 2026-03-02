@@ -10,5 +10,5 @@ RUN npm install
 # COPY --from=praveen /app/dist/* .
 # EXPOSE 83
 # CMD ["nginx","-g","daemon off;"]
-
+EXPOSE 3015
 CMD ["node","app.js"]
